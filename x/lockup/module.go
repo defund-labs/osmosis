@@ -30,7 +30,6 @@ import (
 
 	"github.com/osmosis-labs/osmosis/v11/simulation/simtypes"
 	"github.com/osmosis-labs/osmosis/v11/x/lockup/client/cli"
-	"github.com/osmosis-labs/osmosis/v11/x/lockup/client/rest"
 	"github.com/osmosis-labs/osmosis/v11/x/lockup/keeper"
 
 	simulation "github.com/osmosis-labs/osmosis/v11/x/lockup/simulation"
@@ -84,7 +83,6 @@ func (AppModuleBasic) ValidateGenesis(cdc codec.JSONCodec, config client.TxEncod
 
 // RegisterRESTRoutes registers the capability module's REST service handlers.
 func (AppModuleBasic) RegisterRESTRoutes(clientCtx client.Context, rtr *mux.Router) {
-	rest.RegisterRoutes(clientCtx, rtr)
 }
 
 // RegisterGRPCGatewayRoutes registers the gRPC Gateway routes for the module.

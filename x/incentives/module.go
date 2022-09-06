@@ -31,7 +31,6 @@ import (
 	"github.com/osmosis-labs/osmosis/v11/x/incentives/keeper"
 	"github.com/osmosis-labs/osmosis/v11/x/incentives/simulation"
 	"github.com/osmosis-labs/osmosis/v11/x/incentives/types"
-	"github.com/osmosis-labs/osmosis/v11/x/mint/client/rest"
 )
 
 var (
@@ -83,7 +82,6 @@ func (AppModuleBasic) ValidateGenesis(cdc codec.JSONCodec, config client.TxEncod
 
 // RegisterRESTRoutes registers the module's REST service handlers.
 func (AppModuleBasic) RegisterRESTRoutes(clientCtx client.Context, rtr *mux.Router) {
-	rest.RegisterRoutes(clientCtx, rtr)
 }
 
 // RegisterGRPCGatewayRoutes registers the gRPC Gateway routes for the module.
