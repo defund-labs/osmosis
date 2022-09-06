@@ -9,10 +9,10 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/osmosis-labs/osmosis/v11/app/apptesting/osmoassert"
-	"github.com/osmosis-labs/osmosis/v11/x/twap"
-	"github.com/osmosis-labs/osmosis/v11/x/twap/types"
-	"github.com/osmosis-labs/osmosis/v11/x/twap/types/twapmock"
+	"github.com/defund-labs/osmosis/v11/app/apptesting/osmoassert"
+	"github.com/defund-labs/osmosis/v11/x/twap"
+	"github.com/defund-labs/osmosis/v11/x/twap/types"
+	"github.com/defund-labs/osmosis/v11/x/twap/types/twapmock"
 )
 
 var zeroDec = sdk.ZeroDec()

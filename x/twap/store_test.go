@@ -5,11 +5,11 @@ import (
 	"math"
 	"time"
 
-	"github.com/osmosis-labs/osmosis/v11/x/twap"
 	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/defund-labs/osmosis/v11/x/twap"
 
-	gammtypes "github.com/osmosis-labs/osmosis/v11/x/gamm/types"
-	"github.com/osmosis-labs/osmosis/v11/x/twap/types"
+	gammtypes "github.com/defund-labs/osmosis/v11/x/gamm/types"
+	"github.com/defund-labs/osmosis/v11/x/twap/types"
 )
 
 // TestTrackChangedPool takes a list of poolIds as test cases, and runs one list per block.

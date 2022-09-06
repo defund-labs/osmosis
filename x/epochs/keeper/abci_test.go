@@ -7,12 +7,12 @@ import (
 	"github.com/stretchr/testify/require"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	simapp "github.com/osmosis-labs/osmosis/v11/app"
-	"github.com/osmosis-labs/osmosis/v11/x/epochs/types"
+	simapp "github.com/defund-labs/osmosis/v11/app"
+	"github.com/defund-labs/osmosis/v11/x/epochs/types"
 
 	"golang.org/x/exp/maps"
 
-	"github.com/osmosis-labs/osmosis/v11/osmoutils"
+	"github.com/defund-labs/osmosis/v11/osmoutils"
 )
 
 // This test is responsible for testing how epochs increment based off

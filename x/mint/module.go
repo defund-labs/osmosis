@@ -27,10 +27,10 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/module"
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 
-	"github.com/osmosis-labs/osmosis/v11/x/mint/client/cli"
-	"github.com/osmosis-labs/osmosis/v11/x/mint/keeper"
-	"github.com/osmosis-labs/osmosis/v11/x/mint/simulation"
-	"github.com/osmosis-labs/osmosis/v11/x/mint/types"
+	"github.com/defund-labs/osmosis/v11/x/mint/client/cli"
+	"github.com/defund-labs/osmosis/v11/x/mint/keeper"
+	"github.com/defund-labs/osmosis/v11/x/mint/simulation"
+	"github.com/defund-labs/osmosis/v11/x/mint/types"
 )
 
 var (

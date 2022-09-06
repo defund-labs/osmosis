@@ -3,7 +3,7 @@ package twap_test
 import (
 	"time"
 
-	"github.com/osmosis-labs/osmosis/v11/x/twap/types"
+	"github.com/defund-labs/osmosis/v11/x/twap/types"
 )
 
 func (s *TestSuite) TestMigrateExistingPools() {

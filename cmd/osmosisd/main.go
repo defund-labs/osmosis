@@ -5,9 +5,9 @@ import (
 
 	svrcmd "github.com/cosmos/cosmos-sdk/server/cmd"
 
-	osmosis "github.com/osmosis-labs/osmosis/v11/app"
-	"github.com/osmosis-labs/osmosis/v11/app/params"
-	"github.com/osmosis-labs/osmosis/v11/cmd/osmosisd/cmd"
+	osmosis "github.com/defund-labs/osmosis/v11/app"
+	"github.com/defund-labs/osmosis/v11/app/params"
+	"github.com/defund-labs/osmosis/v11/cmd/osmosisd/cmd"
 )
 
 func main() {

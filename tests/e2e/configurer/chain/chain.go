@@ -9,11 +9,11 @@ import (
 	"github.com/stretchr/testify/require"
 	coretypes "github.com/tendermint/tendermint/rpc/core/types"
 
-	appparams "github.com/osmosis-labs/osmosis/v11/app/params"
-	"github.com/osmosis-labs/osmosis/v11/tests/e2e/configurer/config"
+	appparams "github.com/defund-labs/osmosis/v11/app/params"
+	"github.com/defund-labs/osmosis/v11/tests/e2e/configurer/config"
 
-	"github.com/osmosis-labs/osmosis/v11/tests/e2e/containers"
-	"github.com/osmosis-labs/osmosis/v11/tests/e2e/initialization"
+	"github.com/defund-labs/osmosis/v11/tests/e2e/containers"
+	"github.com/defund-labs/osmosis/v11/tests/e2e/initialization"
 )
 
 type Config struct {

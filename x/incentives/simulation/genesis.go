@@ -7,7 +7,7 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/types/module"
 
-	"github.com/osmosis-labs/osmosis/v11/x/incentives/types"
+	"github.com/defund-labs/osmosis/v11/x/incentives/types"
 )
 
 // Simulation parameter constants.

@@ -6,8 +6,8 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/osmosis-labs/osmosis/v11/x/gamm/pool-models/balancer"
-	"github.com/osmosis-labs/osmosis/v11/x/gamm/types"
+	"github.com/defund-labs/osmosis/v11/x/gamm/pool-models/balancer"
+	"github.com/defund-labs/osmosis/v11/x/gamm/types"
 )
 
 type msgServer struct {

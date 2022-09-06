@@ -10,8 +10,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 
-	"github.com/osmosis-labs/osmosis/v11/x/gamm/pool-models/internal/cfmm_common"
-	"github.com/osmosis-labs/osmosis/v11/x/gamm/types"
+	"github.com/defund-labs/osmosis/v11/x/gamm/pool-models/internal/cfmm_common"
+	"github.com/defund-labs/osmosis/v11/x/gamm/types"
 )
 
 //nolint:deadcode

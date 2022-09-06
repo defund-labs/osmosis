@@ -1,4 +1,4 @@
-module github.com/osmosis-labs/osmosis/v11
+module github.com/defund-labs/osmosis/v11
 
 go 1.18
 

@@ -6,8 +6,8 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/osmosis-labs/osmosis/v11/x/twap"
-	"github.com/osmosis-labs/osmosis/v11/x/twap/types"
+	"github.com/defund-labs/osmosis/v11/x/twap"
+	"github.com/defund-labs/osmosis/v11/x/twap/types"
 )
 
 var (

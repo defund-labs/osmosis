@@ -7,9 +7,9 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/osmosis-labs/osmosis/v11/tests/mocks"
-	"github.com/osmosis-labs/osmosis/v11/x/gamm/pool-models/balancer"
-	"github.com/osmosis-labs/osmosis/v11/x/gamm/types"
+	"github.com/defund-labs/osmosis/v11/tests/mocks"
+	"github.com/defund-labs/osmosis/v11/x/gamm/pool-models/balancer"
+	"github.com/defund-labs/osmosis/v11/x/gamm/types"
 )
 
 var _ = suite.TestingSuite(nil)

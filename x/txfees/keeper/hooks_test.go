@@ -7,8 +7,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/testutil/testdata"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	gammtypes "github.com/osmosis-labs/osmosis/v11/x/gamm/types"
-	"github.com/osmosis-labs/osmosis/v11/x/txfees/types"
+	gammtypes "github.com/defund-labs/osmosis/v11/x/gamm/types"
+	"github.com/defund-labs/osmosis/v11/x/txfees/types"
 )
 
 var defaultPooledAssetAmount = int64(500)

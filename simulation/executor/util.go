@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/osmosis-labs/osmosis/v11/simulation/simtypes"
+	"github.com/defund-labs/osmosis/v11/simulation/simtypes"
 )
 
 func getTestingMode(tb testing.TB) (testingMode bool, t *testing.T, b *testing.B) {

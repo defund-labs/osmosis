@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/defund-labs/osmosis/v11/x/pool-incentives/types"
 	proto "github.com/gogo/protobuf/proto"
-	"github.com/osmosis-labs/osmosis/v11/x/pool-incentives/types"
 	"github.com/stretchr/testify/require"
 )
 

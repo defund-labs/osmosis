@@ -1,9 +1,9 @@
 package keeper
 
 import (
+	lockuptypes "github.com/defund-labs/osmosis/v11/x/lockup/types"
+	"github.com/defund-labs/osmosis/v11/x/superfluid/types"
 	"github.com/gogo/protobuf/proto"
-	lockuptypes "github.com/osmosis-labs/osmosis/v11/x/lockup/types"
-	"github.com/osmosis-labs/osmosis/v11/x/superfluid/types"
 
 	"github.com/cosmos/cosmos-sdk/store/prefix"
 	sdk "github.com/cosmos/cosmos-sdk/types"

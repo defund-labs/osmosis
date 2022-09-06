@@ -7,11 +7,11 @@ import (
 
 	distributiontypes "github.com/cosmos/cosmos-sdk/x/distribution/types"
 
-	"github.com/osmosis-labs/osmosis/v11/osmoutils"
-	gammtypes "github.com/osmosis-labs/osmosis/v11/x/gamm/types"
-	incentivestypes "github.com/osmosis-labs/osmosis/v11/x/incentives/types"
-	lockuptypes "github.com/osmosis-labs/osmosis/v11/x/lockup/types"
-	"github.com/osmosis-labs/osmosis/v11/x/superfluid/types"
+	"github.com/defund-labs/osmosis/v11/osmoutils"
+	gammtypes "github.com/defund-labs/osmosis/v11/x/gamm/types"
+	incentivestypes "github.com/defund-labs/osmosis/v11/x/incentives/types"
+	lockuptypes "github.com/defund-labs/osmosis/v11/x/lockup/types"
+	"github.com/defund-labs/osmosis/v11/x/superfluid/types"
 )
 
 func (k Keeper) AfterEpochEnd(ctx sdk.Context, epochIdentifier string, _ int64) error {

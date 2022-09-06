@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/defund-labs/osmosis/v11/x/lockup/types"
 	"github.com/gogo/protobuf/proto"
-	"github.com/osmosis-labs/osmosis/v11/x/lockup/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"

@@ -3,7 +3,7 @@ package keeper_test
 import (
 	"fmt"
 
-	"github.com/osmosis-labs/osmosis/v11/x/tokenfactory/types"
+	"github.com/defund-labs/osmosis/v11/x/tokenfactory/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"

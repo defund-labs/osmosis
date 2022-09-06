@@ -8,11 +8,11 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 
-	"github.com/osmosis-labs/osmosis/v11/wasmbinding/bindings"
-	gammkeeper "github.com/osmosis-labs/osmosis/v11/x/gamm/keeper"
-	gammtypes "github.com/osmosis-labs/osmosis/v11/x/gamm/types"
-	tokenfactorykeeper "github.com/osmosis-labs/osmosis/v11/x/tokenfactory/keeper"
-	twapkeeper "github.com/osmosis-labs/osmosis/v11/x/twap"
+	"github.com/defund-labs/osmosis/v11/wasmbinding/bindings"
+	gammkeeper "github.com/defund-labs/osmosis/v11/x/gamm/keeper"
+	gammtypes "github.com/defund-labs/osmosis/v11/x/gamm/types"
+	tokenfactorykeeper "github.com/defund-labs/osmosis/v11/x/tokenfactory/keeper"
+	twapkeeper "github.com/defund-labs/osmosis/v11/x/twap"
 )
 
 type QueryPlugin struct {

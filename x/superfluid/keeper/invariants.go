@@ -5,7 +5,7 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/osmosis-labs/osmosis/v11/x/superfluid/types"
+	"github.com/defund-labs/osmosis/v11/x/superfluid/types"
 )
 
 const totalSuperfluidDelegationInvariantName = "total-superfluid-delegation-invariant-name"

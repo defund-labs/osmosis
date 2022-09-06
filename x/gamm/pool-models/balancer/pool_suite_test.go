@@ -11,11 +11,11 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/osmosis-labs/osmosis/v11/app/apptesting"
-	"github.com/osmosis-labs/osmosis/v11/app/apptesting/osmoassert"
-	v10 "github.com/osmosis-labs/osmosis/v11/app/upgrades/v10"
-	"github.com/osmosis-labs/osmosis/v11/x/gamm/pool-models/balancer"
-	"github.com/osmosis-labs/osmosis/v11/x/gamm/types"
+	"github.com/defund-labs/osmosis/v11/app/apptesting"
+	"github.com/defund-labs/osmosis/v11/app/apptesting/osmoassert"
+	v10 "github.com/defund-labs/osmosis/v11/app/upgrades/v10"
+	"github.com/defund-labs/osmosis/v11/x/gamm/pool-models/balancer"
+	"github.com/defund-labs/osmosis/v11/x/gamm/types"
 )
 
 const (

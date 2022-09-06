@@ -18,10 +18,10 @@ import (
 
 	wasmvmtypes "github.com/CosmWasm/wasmvm/types"
 
-	"github.com/osmosis-labs/osmosis/v11/app"
-	epochtypes "github.com/osmosis-labs/osmosis/v11/x/epochs/types"
+	"github.com/defund-labs/osmosis/v11/app"
+	epochtypes "github.com/defund-labs/osmosis/v11/x/epochs/types"
 
-	"github.com/osmosis-labs/osmosis/v11/wasmbinding"
+	"github.com/defund-labs/osmosis/v11/wasmbinding"
 )
 
 type StargateTestSuite struct {

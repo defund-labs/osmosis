@@ -1,8 +1,8 @@
 package keeper
 
 import (
-	"github.com/osmosis-labs/osmosis/v11/osmoutils"
-	"github.com/osmosis-labs/osmosis/v11/x/superfluid/types"
+	"github.com/defund-labs/osmosis/v11/osmoutils"
+	"github.com/defund-labs/osmosis/v11/x/superfluid/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
